@@ -1,13 +1,17 @@
 # WTC_VOGSPHERE
 
-## How-To ?
+## Installation ?
 
 Just run 
 
 ```
 sh installer.sh
 ```
-and get vogsphere access on your own machine 
+and get vogsphere access on your own machine, don't forget to
+```
+kinit xlogin
+```
+or all this will be useless !
 
 ### Dependencies
 
