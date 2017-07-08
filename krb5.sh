@@ -21,3 +21,12 @@ cat >> /etc/krb5.conf << EOF
     .42.fr = 42.FR
     42.fr = 42.FR
 EOF
+
+cat >> /etc/ssh/ssh_config << EOF
+Host *.42.fr
+SendEnv LANG LC_*
+StrictHostKeyChecking no
+GSSAPIAuthentication yes
+GSSAPIDelegateCredentials yes
+PasswordAuthentication yes
+EOF
