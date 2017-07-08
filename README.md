@@ -1,6 +1,6 @@
 # WTC_VOGSPHERE
 
-## About
+## How-To ?
 
 Just run 
 
